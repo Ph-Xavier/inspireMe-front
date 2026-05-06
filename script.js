@@ -5,7 +5,8 @@ async function fetchQuote() {
   const authorElement = document.getElementById("author");
 
   try {
-    quoteElement.innerText = "Buscando nova inspiração...";
+    quoteElement.innerHTML =
+      '<i class="fa-solid fa-spinner fa-spin"></i> Buscando nova inspiração...';
     authorElement.innerText = "";
 
     const response = await fetch(API_URL);
