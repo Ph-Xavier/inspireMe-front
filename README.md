@@ -16,7 +16,7 @@ A aplicação foi construída para consumir a API do InspireMe e apresentar as i
 
 O projeto conta com uma pipeline robusta de CI/CD para automatizar as entregas em produção.
 
-- **Hospedagem:** Vercel[cite: 309].
+- **Hospedagem:** Vercel.
 - **Pipeline:** GitHub Actions via Vercel CLI.
-- **Gatilho (Trigger):** Para garantir o controle de versão, a integração Git padrão da Vercel foi desativada[cite: 232]. Os deploys ocorrem exclusivamente via GitHub Actions mediante o push de tags semânticas (SemVer) no repositório.
+- **Gatilho (Trigger):** Para garantir o controle de versão, a integração Git padrão da Vercel foi desativada. Os deploys ocorrem exclusivamente via GitHub Actions mediante o push de tags semânticas (SemVer) no repositório.
 - **Autenticação:** O fluxo utiliza os secrets `VERCEL_TOKEN`, `VERCEL_ORG_ID` e `VERCEL_PROJECT_ID` configurados no GitHub para autorizar a publicação.
