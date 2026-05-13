@@ -5,7 +5,7 @@ on:
     tags:
       - "v*.*.*"
 
-obs:
+jobs:
   build-and-deploy:
     name: Detectar versão e publicar na Vercel
     runs-on: ubuntu-latest
