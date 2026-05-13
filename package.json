@@ -1,0 +1,7 @@
+{
+  "name": "inspireme-front",
+  "version": "1.1.0",
+  "scripts": {
+    "build": "echo \"projeto front estatico - sem etapa de build obrigatoria\""
+  }
+}
