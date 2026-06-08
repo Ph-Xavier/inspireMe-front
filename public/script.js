@@ -1,4 +1,4 @@
-const API_URL = "https://redesigned-disco-jgpww445vj4hp5x7-5000.app.github.dev/v1";
+const API_URL = "https://inspireme-back-docker.onrender.com/v1";
 
 async function fetchQuote() {
     const quoteElement = document.getElementById('quote');
